@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --fonte1:'Pridi', serif;
+    --fonte2:'Roboto', sans-serif;
+    --cor1:#0C1524;
+    --cor2:#1374BD;
+    --cor3:#242C39;
+    --cor4:rgb(7, 175, 49);
+}
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    font-family: var(--fonte1);
+    background-color: var(--cor1);
+    padding: 10px;
+}
+nav{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+nav > a{
+    color:white;
+    text-decoration: none;
+    padding: 4px 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+    border: 1px solid ;
+    border-radius: 4px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.479);
+}
+#atual{
+    color: var(--cor2);
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-family: var(--fonte1);
+}
+footer > a{
+    color: white;
+    transition: 0.5s;
+}
+footer > a:hover{
+    color: var(--cor4);
+}

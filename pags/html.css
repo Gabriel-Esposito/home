@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --fonte1:'Pridi', serif;
+    --fonte2:'Roboto', sans-serif;
+    --cor1:#0C1524;
+    --cor2:#1374BD;
+    --cor3:#242C39;
+    --cor4:rgb(7, 175, 49);
+}
+
+section{
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(10, 124, 86, 0.596);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+    transition: 0.5s;
+    font-family: var(--fonte2);
+}
+section > h1, section > h4{
+    font-family: var(--fonte1);
+    font-weight: 600;
+}
+section > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+section > p{
+    margin: 10px 0px;
+}
+section:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+    width: 710px;
+}
+pre{
+    background-color: #242C39;
+    width: 50%;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: white;
+}
+li{
+    margin-top: 4px;
+}
+hr{
+    margin: 4px 0px;
+}
+/*===================================================================================================*/
+#divs{
+    background-color: rgb(52, 90, 133);
+}
+#divs > h1{
+    color: white;
+}
+#teste1{
+    width: 30px;
+    height: 30px;
+    background-color: goldenrod;
+}
+#teste1:hover{
+    background-color:red;
+}
+#teste2, #t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8{
+    width: 60px;
+    height: 60px;
+    background-color: darkcyan;
+}
+#bloco{
+    display: flex;
+}
+#bloco >#t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8{
+    margin-left: 20px;
+    display: flex;
+}
+#t2{
+    align-items: center;
+}
+#t2{
+    align-items: end;
+}
+#t3{
+    justify-content: center;
+}
+#t4{
+    justify-content: center;
+    align-items: center;
+}
+#t5{
+    justify-content: center;
+    align-items: end;
+}
+#t6{
+    justify-content: end;
+}
+#t7{
+    justify-content: end;
+    align-items: center;
+}
+#t8{
+    justify-content: end;
+    align-items: end;
+}

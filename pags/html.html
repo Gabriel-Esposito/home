@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="html.css">
+    <script src="div.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" >HOME</a>
+            <a href="html.html" id="atual">HTML5</a>
+            <a href="#">CSS3</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tags"><a name="tags"></a>
+            <h1>Tags</h1>
+            <p>Elemento HTML é uma parte de uma página da internet. Um elemento é qualquer objeto identificável dentro de um documento, por exemplo, um caractere, palavra, imagem, parágrafo ou célula de planilha.</p>
+            <p>As tags em html devem ser abertas e fechadas pelos sinais de maior (&gt;) e menor (&lt;) </p>
+            <h4>Ex:</h4>
+            <div id="ex1">
+                <pre>
+                    <code>
+                    &#10060; &lt;p&gt;&lt;p&gt;
+                    &#10060; &lt;p &lt;p&gt;
+                    &#9989; &lt;p&gt;&lt;/p&gt;
+                    </code>
+                </pre>
+            </div>
+            <hr>
+            <p>Aqui estão algumas tags do HTML5:</p>
+            <ul>
+                <li><strong>h1 / h6</strong> : usado para criar uma hierarquia de título e vai do h1 até o h6</li>
+                <li><strong>p</strong> : usado para criar um parágrafo na pag</li>
+                <li><strong>img</strong> : usado para adicionar uma imagem na pag</li>
+                <li><strong>video</strong> : usada para adicionar um vídeo na pag</li>
+                <li><strong>strong</strong> : usado para deixar uma parte do texto em negrito</li>
+                <li><strong>b</strong> : usado para deixar uma parte do texto em negrito, pórem, não é semântico</li>
+                <li><strong>em</strong> : usado para deixar uma parte do texto em itálico</li>
+                <li><strong>i</strong> : usado para deixar uma parte do texto em itálico, pórem, não é semântico</li>
+                <li><strong>mark</strong> : usado para criar uma marcação em um trecho do texto</li>
+                <li><strong>small</strong> : usada para deixar um trecho do texto pequeno</li>
+                <li><strong>del</strong> : vai criar uma linha sobre o um trecho do texto</li>
+                <li><strong>ins</strong> ; usado para colocar uma linha a baixo do texto</li>
+                <li><strong>U</strong> ; usado para colocar uma linha a baixo do texto, pórem, não semântico</li>
+                <li><strong>sup</strong> : usado para elevar algo</li>
+                <li><strong>sub</strong> : usado para abaixar algo</li>
+                <li><strong>q</strong> : usado para marcar uma citação de alguel no texto</li>
+                <li><strong>blockquote</strong> : usado para marcar uma citação de alguem no texto, pórem, podemos colocar um link para a citação </li>
+                <li><strong>abbr</strong> : usada para criar uma abreviação </li>
+                <li><strong>bdo</strong> : usada para inverter um trecho no texto</li>
+                <li><strong>ol</strong> : usado para criar uma lista numérica</li>
+                <li><strong>ul</strong> : usado para criar uma lista com simbolos</li>
+                <li><strong>li</strong> : usado para adicionar um texto dentro de uma lista</li>
+                <li><strong>dl</strong> : usado para criar uma lista de definições</li>
+                <li><strong>dd</strong> : udado para dar uma descrição para os elementos da lista de definições</li>
+                <li><strong>a</strong> : usado para colocar links, criar botões, baixar arquivos, etc... no cite</li>
+                <li><strong>picture</strong> : usado para criar imagens dinâmicas</li>
+                <li><strong>source</strong> : usado para criar uma dinamica em algum elemento qunado atinjir um tamanho</li>
+                <li><strong>audio</strong> : cria junto com a tag <strong>source</strong> um arquivo de áudio no site</li>
+                <li><strong>pre</strong> : não modifica o estilo do texto dentro da tag</li>
+                <li><strong>code</strong> : usado para escrever códigos sem serem modificados</li>
+                <li><strong>iframe</strong> : usado para importar vídeos e abrir sites dentro de seu proprio site</li>
+                <li><strong>span</strong> : usada para separar umna parte de um site e modificá-lo com scripts ou css</li>
+            </ul>
+            <hr>
+            <p>Existem algumas tag que não precisão serem fechadas:</p>
+            <ul>
+                <li><strong>br</strong> : usada para quebrar uma linha em um texto</li>
+                <li><strong>hr</strong> : usado para criar uma linha da horizontal do site</li>
+                <li><strong>link</strong> : usado para colocar favicons no site, importar css, etc...</li>
+                <li><strong>script</strong> : usado para importar e usar scripts</li>
+            </ul>
+        </section>
+
+        <section id="divs"><a name="divs"></a>
+            <h1>Divs</h1>
+            <p>As divs são uma parte muito importante de um site, afinal, são elas que são responsáveis por dividir um site em blocos que podem ser manipulados pelas <strong>CSS3</strong>, <strong>JavaScript</strong> e etc...</p>
+            <p>Existem varios tipos de divs semanticas que podem ser usadas para melhor compreensão de seu código</p>
+            <hr>
+            <p>Divs semanticas</p>
+            <ul>
+                <li><strong>header</strong> : Ele é usado como o cabeçalho de seu site</li>
+                <li><strong>nav</strong> : Usado para colocar seus links de navegação no site</li>
+                <li><strong>main</strong> : Usado como bloco central do site</li>
+                <li><strong>section</strong> : Usada para criar seções no site</li>
+                <li><strong>article</strong> : Usada para colocar artigos relacionados aos assustos do site</li>
+                <li><strong>footer</strong> : Usado como rodapé do site, onde ficara os créditos finais</li>
+            </ul>
+            <hr>
+            <p>Um exemplo de um site semântico</p>
+            <h4>Ex:</h4>
+            <pre>
+                <code>
+                &lt;header&gt;
+                    &lt;nav&gt;
+                    &lt;a href="link"&gt; Home &lt;/a&gt;
+                    &lt;/nav&gt;
+                &lt;/header&gt;
+
+                &lt;main&gt;
+                    &lt;section&gt;
+                        &lt;article&gt;
+                            (conteúdo)
+                        &lt;/article&gt;
+                    &lt;/section&gt;
+                &lt;/main&gt;
+
+                &lt;footer&gt;
+                    (créditos)
+                &lt;/footer&gt;
+                </code>
+            </pre>
+            <hr>
+            <p>Uma div é um bloco ou pedaço do site que pode ser mudado</p>
+            <h4>Ex:</h4>
+            <div id="teste1" onclick="circulo()"></div>
+            <hr>
+            <p>Podemos colocar divs dentro de outras divs, assim criando uma hierarquia de divs</p>
+            <div id="teste2">
+                <div id="teste1"></div>
+            </div>
+            <hr>
+            <p>Podemos mover as divs usando o CSS3</p>
+            <div id="bloco">
+                <div id="t1">
+                    <div id="teste1"></div>
+                </div>
+                <div id="t2">
+                    <div id="teste1"></div>
+                </div>
+                <div id="t3">
+                    <div id="teste1"></div>
+                </div>
+                <div id="t4">
+                    <div id="teste1"></div>
+                </div>
+                <div id="t5">
+                    <div id="teste1"></div>
+                </div>
+                <div id="t6">
+                    <div id="teste1"></div>
+                </div>
+                <div id="t7">
+                    <div id="teste1"></div>
+                </div>
+                <div id="t8">
+                    <div id="teste1"></div>
+                </div>
+            </div>
+            <hr>
+            <h4>Como usar:</h4>
+            <p>Basta colocar a tag <strong>div</strong> e criar algo dentro dela</p>
+            <h4>Ex:</h4>
+            <pre>
+                <code>
+                &lt;div&gt;
+                    &lt;p&gt; Olá Mundo!&lt;/p&gt;
+                &lt;/div&gt;
+                </code>
+            </pre>
+            <p><strong>OBS:</strong> para notar a diferença será necessário aplicar um código <strong>CSS</strong>.</p>
+            <hr>
+            <h4>Hierarquia de divs:</h4>
+            <p>basta colocar uma div dentro da outra e as dar um <strong>id</strong> ou uma <strong>class</strong>.</p>
+            <pre>
+                <code>
+                &lt;div id="pai"&gt;
+                    &lt;div=""filho&gt;
+                        &lt;p&gt; Olá Mundo!&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                </code>
+            </pre>
+            <p><strong>OBS: IDs</strong> e <strong>ClASSs</strong> serão explicados depois.</p>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/Gabriel-Esposito" target="_blank">By: Gabriel&copy;</a>
+    </footer>
+</body>
+</html>
