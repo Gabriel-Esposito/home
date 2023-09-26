@@ -54,7 +54,7 @@ hr{
 #divs{
     background-color: rgb(52, 90, 133);
 }
-#divs > h1{
+#divs > h1, #class-id > h1{
     color: white;
 }
 #teste1{
@@ -104,4 +104,29 @@ hr{
 #t8{
     justify-content: end;
     align-items: end;
+}
+/*===================================================================================================*/
+#class-id{
+    background-color: #1374BD;
+}
+#box-btns1{
+    margin-top: 20px;
+}
+.botoes{
+    padding: 4px 10px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: var(--fonte1);
+    font-weight: 500;
+}
+.botoes:hover{
+    color: var(--cor2);
+}
+#escondido{
+    display: none;
+    text-align: center;
+    margin-top: 30px;
 }

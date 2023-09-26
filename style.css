@@ -45,3 +45,8 @@ a{
 a:hover{
     color:blue;
 }
+#versao{
+    font-size: 12px;
+    display: inline;
+    margin-left: 3%;
+}

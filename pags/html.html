@@ -6,7 +6,7 @@
     <title>HTML</title>
     <link rel="stylesheet" href="all.css">
     <link rel="stylesheet" href="html.css">
-    <script src="div.js"></script>
+    <script src="configs.js"></script>
 </head>
 <body>
     <header>
@@ -40,18 +40,18 @@
                 <li><strong>img</strong> : usado para adicionar uma imagem na pag</li>
                 <li><strong>video</strong> : usada para adicionar um vídeo na pag</li>
                 <li><strong>strong</strong> : usado para deixar uma parte do texto em negrito</li>
-                <li><strong>b</strong> : usado para deixar uma parte do texto em negrito, pórem, não é semântico</li>
+                <li><strong>b</strong> : usado para deixar uma parte do texto em negrito, porém, não é semântico</li>
                 <li><strong>em</strong> : usado para deixar uma parte do texto em itálico</li>
-                <li><strong>i</strong> : usado para deixar uma parte do texto em itálico, pórem, não é semântico</li>
+                <li><strong>i</strong> : usado para deixar uma parte do texto em itálico, porém, não é semântico</li>
                 <li><strong>mark</strong> : usado para criar uma marcação em um trecho do texto</li>
                 <li><strong>small</strong> : usada para deixar um trecho do texto pequeno</li>
                 <li><strong>del</strong> : vai criar uma linha sobre o um trecho do texto</li>
-                <li><strong>ins</strong> ; usado para colocar uma linha a baixo do texto</li>
-                <li><strong>U</strong> ; usado para colocar uma linha a baixo do texto, pórem, não semântico</li>
+                <li><strong>ins</strong> : usado para colocar uma linha a baixo do texto</li>
+                <li><strong>U</strong> : usado para colocar uma linha a baixo do texto, porém, não semântico</li>
                 <li><strong>sup</strong> : usado para elevar algo</li>
                 <li><strong>sub</strong> : usado para abaixar algo</li>
                 <li><strong>q</strong> : usado para marcar uma citação de alguel no texto</li>
-                <li><strong>blockquote</strong> : usado para marcar uma citação de alguem no texto, pórem, podemos colocar um link para a citação </li>
+                <li><strong>blockquote</strong> : usado para marcar uma citação de alguem no texto, porém, podemos colocar um link para a citação </li>
                 <li><strong>abbr</strong> : usada para criar uma abreviação </li>
                 <li><strong>bdo</strong> : usada para inverter um trecho no texto</li>
                 <li><strong>ol</strong> : usado para criar uma lista numérica</li>
@@ -81,7 +81,7 @@
         <section id="divs"><a name="divs"></a>
             <h1>Divs</h1>
             <p>As divs são uma parte muito importante de um site, afinal, são elas que são responsáveis por dividir um site em blocos que podem ser manipulados pelas <strong>CSS3</strong>, <strong>JavaScript</strong> e etc...</p>
-            <p>Existem varios tipos de divs semanticas que podem ser usadas para melhor compreensão de seu código</p>
+            <p>Existem vários tipos de divs semanticas que podem ser usadas para melhor compreensão de seu código</p>
             <hr>
             <p>Divs semanticas</p>
             <ul>
@@ -117,7 +117,7 @@
                 </code>
             </pre>
             <hr>
-            <p>Uma div é um bloco ou pedaço do site que pode ser mudado</p>
+            <p>Uma div é um bloco ou pedaço do site que pode ser mudado, click no quadrado amarelo!</p>
             <h4>Ex:</h4>
             <div id="teste1" onclick="circulo()"></div>
             <hr>
@@ -178,6 +178,86 @@
                 </code>
             </pre>
             <p><strong>OBS: IDs</strong> e <strong>ClASSs</strong> serão explicados depois.</p>
+        </section>
+
+        <section id="class-id">
+            <h1>Class / id</h1>
+            <h4>CLASS {.}:</h4>
+            <p>As vezes precisamos mudar vários elementos de um site, porém, eles terão a mesma config, como fazer isso sem o código ficar grande e pesado?</p>
+            <p>Basta usar a <strong>Class</strong>!<br>Podemos dar uma class para os elementos de mesma config, assim os modificando.</p>
+            <p><strong>Class</strong> São usadas para varias modificações e também uma parte importante para juntar o Front-end e o Back-end de teu site!</p>
+            <hr>
+            <h4>Como usar class</h4>
+            <p>Escolha os elementos que preferir modificar colocando o seletor class e atribuindo um nome ao mesmo.</p>
+            <h4>Ex:</h4>
+            <pre>
+                <code>
+            &lt;p class="o_nome_de_sua_class"&gt;
+                Olá mundo!
+            &lt;/p&gt;
+                </code>
+            </pre>
+            <h4>Ex2:</h4>
+            <pre>
+                <code>
+        &#10060;  &lt;p class="box 2"&gt; Olá mundo &lt;/p&gt;
+        &#10060;  &lt;p class='Box'&gt; Olá mundo &lt;/p&gt;
+        &#10060;  &lt;p clas="box"&gt; Olá mundo &lt;/p&gt;
+        &#9989;  &lt;p class="box_2"&gt; Olá mundo &lt;/p&gt;
+                </code>
+            </pre>
+            <p>A <strong>class</strong> deve ser escrito corretamente para não haver erro.<br>Evite dar espaços no nome de suas class!<br>Troque os espaços por <strong>(-)</strong> ou <strong>(_)</strong> letras maiúsculas também ajudão <strong>(BoxNova)</strong>. </p>
+            <hr>
+            <p>A class funciona melhor com vários elementos, porém, podemos atribuir a apenás um elemento</p>
+            <h4>Ex:</h4>
+            <pre>
+                <code>
+    &#9989;  &lt;p class="box_2"&gt; parágrafo &lt;/p&gt;
+    &#9989;  &lt;h4 class="Titulos"&gt; titulo &lt;/h4&gt;
+    &#9989;  &lt;a href="" class="box_2"&gt; âncora &lt;/a&gt;
+                </code>
+            </pre>
+            <hr>
+            <h4>ID {#}:</h4>
+            <p><strong>IDs</strong>, diferentes das class, o id normalmente é atríbuido a um elemento unico no site<br> Usados quando apenas um elemento específico vai ser mudado</p>
+            <hr>
+            <h4>Ex:</h4>
+            <pre>
+                <code>
+        &#9989;  &lt;p id="maior"&gt; Olá mundo &lt;/p&gt;
+        &#10060;  &lt;p id="maior"&gt; Olá mundo &lt;/p&gt;
+        &#10060;  &lt;h1 id='maior&gt; Olá mundo &lt;/h1&gt;
+                </code>
+            </pre>
+            <hr>
+            <p>Podemos juntar <strong>IDs</strong> e <strong>CLASSs</strong> para deixar o site mais dinamico.</p>
+            <h4>Ex:</h4>
+            <pre>
+                <code>
+        &#9989; &lt;h1 class="Titulos"&gt;
+            (conteúdo)
+        &lt;/h1&gt;
+        &lt;p class="Titulos" id="caixa-de-texto"&gt;
+            (conteúdo)
+        &lt;/p&gt;
+        &lt;h4 class="Sub-Titulo"&gt;
+            (conteúdo)
+        &lt;/h4&gt;
+                </code>
+            </pre>
+            <hr>
+            <h4>Extra:</h4><a name="extra1"></a>
+            <p>As class e os ids podem fazer qualquer elemento html se tornar qualquer coisa.</p>
+            <p>No exemplo abaixo, temos 3 <strong>a (âncoras)</strong> com a class = "botoes"<br>porém, uma delas possui um id = "b-Animado".</p>
+            <p>Passe com o mouse por cima e click nas âncoras abaixo e veja a mágica.</p>
+            <div id="box-btns1">
+                <a href="#extra1" class="botoes">Botão 1</a>
+                <a href="#extra1" class="botoes" id="b-Animado" onclick="b_animado()">Botão 2</a>
+                <a href="#extra1" class="botoes">Botão 3</a>
+                <div id="escondido">
+                    <p style="color: rgb(160, 25, 25);font-size: 20px;text-decoration: underline;">Me Achou!!</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
