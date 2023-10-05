@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(114, 106, 106);
+        }
+
+        /*=========================================*/
+        #cabeca {
+            padding: 10px;
+            background-color: aquamarine;
+        }
+
+        header {
+            background-color: rgb(64, 64, 85);
+            color: white;
+            height: 100%;
+            position: fixed;
+        }
+
+        #menu {
+            display: none;
+        }
+
+        #logo {
+            background-image: linear-gradient(to right, rgb(52, 158, 52), rgb(10, 83, 10));
+            padding: 10px 20px;
+            text-indent: 6px;
+        }
+
+        #logo>img {
+            width: 56px;
+        }
+
+        #logo>h5 {
+            margin-top: 4px;
+        }
+
+        /*=============================================*/
+        nav>p {
+            margin: 6px 10px;
+        }
+
+        .icons {
+            padding: 6px 10px;
+            display: flex;
+        }
+
+        .icons>a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 4px 0px 0px 10px;
+        }
+
+        /*=============================================*/
+        .icons:hover {
+            background-color: rgb(75, 141, 49);
+            cursor: pointer;
+        }
+
+        #ativo {
+            background-color: rgb(75, 141, 49);
+        }
+    </style>
+</head>
+
+<body>
+    <header id="menu">
+        <div id="logo">
+            <img src="pessoa.png" alt="">
+            <h5>Conta ADM</h5>
+            <h5>Matrícula - 1234567890</h5>
+        </div>
+        <nav>
+            <p>Principal</p>
+
+            <div class="icons" id="ativo">
+                <span class="material-symbols-outlined">
+                    bar_chart_4_bars
+                </span><a href="#">Dashbord</a>
+            </div>
+
+            <div class="icons">
+                <span class="material-symbols-outlined">
+                    home
+                </span><a href="#">Imóveis</a>
+            </div>
+
+            <div class="icons">
+                <span class="material-symbols-outlined">
+                    turn_right
+                </span><a href="#">Itínerários</a>
+            </div>
+
+            <hr>
+
+            <p>Gerenciamento</p>
+
+            <div class="icons">
+                <span class="material-symbols-outlined">
+                    Sync
+                </span><a href="#">Sincronizar</a>
+            </div>
+
+            <div class="icons">
+                <span class="material-symbols-outlined">
+                    release_alert
+                </span><a href="#">Novidades</a>
+            </div>
+
+            <div class="icons">
+                <span class="material-symbols-outlined">
+                    settings
+                </span><a href="#">Configurações</a>
+            </div>
+
+            <div class="icons" onclick="menu()">
+                <span class="material-symbols-outlined">
+                    logout
+                </span><a href="#">Sair</a>
+            </div>
+        </nav>
+    </header>
+    <div id="cabeca">
+        <span class="material-symbols-outlined" onclick="menu()">
+            menu
+        </span>
+    </div>
+    <h1> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi
+        saepe nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, sint eveniet quae magni itaque rem excepturi saepe
+        nihil at debitis ab nisi nam ducimus iusto iste sunt reprehenderit sit corporis?
+
+    </h1>
+
+    <script>
+        var on = 0
+        function menu() {
+            var menu = window.document.getElementById('menu')
+
+            if (on == 0) {
+                menu.style.display = 'block';
+                on++;
+            } else if (on == 1) {
+                menu.style.display = 'none';
+                on--;
+            };
+        }
+    </script>
+</body>
+
+</html>
