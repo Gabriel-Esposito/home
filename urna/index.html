@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <audio src="confirmar.mp3"></audio>
+    <main>
+        <section>
+            <div class="chapas">
+                <h1>SDE</h1>
+                <ul>
+                    <li>Dias de palestras</li>
+                    <li>Melhorar a Higiene</li>
+                    <li>Melorias no podcast</li>
+                </ul>
+                <h2>Vote: 1</h2>
+            </div>
+            <div id="linha"></div>
+            <div class="chapas">
+                <h1>SPC</h1>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <h2>Vote: 2</h2>
+            </div>
+        </section>
+        <article>
+            <h1>Digite seu voto:</h1>
+            <input type="number" max="2" min="1" name="voto" id="voto">
+            <div class="votar" onclick="Votar()">Votar!</div>
+            <p id="erro">Digite apenas 1 ou 2!</p>
+        </article>
+    </main>
+    <footer>
+        Desenvolvido por: <a href="https://github.com/Gabriel-Esposito">Gabriel de Abreu</a>
+    </footer>
+</body>
+</html>
