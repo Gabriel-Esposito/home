@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Outfit', sans-serif;
+        }
+        #pdf {
+            width: 794px; /* max: 794px*/
+            height: 920px; /* max: 920px*/
+        }
+
+        header {
+            margin-bottom: 10px;
+        }
+        header ul{
+            margin-top: 0;
+            text-align: center;
+            list-style: none;
+            columns: 2;
+        }
+        header li {
+            margin-bottom: 6px; /* max: 6px*/
+        }
+
+        main{
+            text-align: center;
+        }
+        main  img{
+            width: 200px;   /* max: 790px*/
+            height: 205px; /* max: 765px*/
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            position: absolute;
+            bottom: 0px;
+            left: 130px;
+        }
+        footer img {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="pdf">
+        <header>
+            <ul>
+                <li>Nome</li>
+                <li>id</li>
+                <li>Sexo</li>
+                <li>Medico</li>
+                <li>id</li>
+                <li>id</li>
+            </ul>
+        </header>
+
+        <main>
+            <img src="yuma.jpg" alt="">
+        </main>
+
+        <footer>
+            <p><strong>Hospital Municipal de Pirapetinga</strong> Fundação José de Oliveira</p>
+            <img src="logo.png" alt="">
+        </footer>
+    </div>
+    <div class="btn">
+        <button id="btn" onclick="teste()">Pdf</button>
+    </div>
+    <script>
+        function teste(){
+            print()
+        }
+    </script>
+</body>
+</html>
