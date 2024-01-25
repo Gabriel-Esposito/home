@@ -14,11 +14,11 @@ body{
     font-family: var(--fonte2);
 }
 main{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 section {
-    width: 80%;
+    width: 90%;
     padding: 1em;
     margin: auto;
     margin-top: 2em;
